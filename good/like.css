@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: url('img/me2.jpg')
+}
+
+.main {
+  background-color: white;
+  margin: auto;
+  width: 40vw;
+  height: 10vh;
+  margin-top: 3vh;
+  text-align: center;
+  font-family: 'Crafty Girls';
+  font-size: 3vw;
+  text-shadow: 0px 0px 10px green;
+}
+
+.main p {
+  padding-top: 1.7vh;
+}
+
+.picture img {
+  height: 20vh;
+  width: 11.5vw;
+  margin-top: 3vh;
+}
+
+.picture {
+  background-color: white;
+  margin: auto;
+  width: 50vw;
+  height: 40vh;
+  margin-top: 6vh;
+  text-align: center;
+  font-family: 'Comic Sans MS';
+  font-size: 1.5vw;
+  text-shadow: 0px 0px 10px green;
+  margin-bottom: 5vh;
+}
+
+.picture p {
+  padding-top: 2vh;
+  padding-bottom: 0;
+}
+
+.kit {
+  height: 18vh;
+  width: 11.5vw;
+  margin-top: 5vh;
+  background: white;
+  margin: auto;
+}
+
+.prize {
+  height: 10vh;
+  width: 20vw;
+  background: white;
+  margin: auto;
+}
