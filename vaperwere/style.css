@@ -1,3 +1,10 @@
+/*fonts*/
+@font-face {
+  font-family: Futura-Medium;
+  src: url('fonts/Futura Medium.otf')
+}
+
+/*styling*/
 * {
     margin: 0;
     padding: 0;
@@ -21,6 +28,7 @@ body {
 .logo {
     margin: 0 30% 0 30%;
     margin-top: 20vh;
+    position: absolute;
 }
 
 .topbar {
@@ -31,7 +39,7 @@ body {
 .topbar p {
     color: rgb(0, 255, 181);
     float: left;
-    display: block;
+    display: inline;
     font-size: 4vh;
     text-align: center;
     padding: 2vh 3vh;

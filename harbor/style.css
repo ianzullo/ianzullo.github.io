@@ -2,7 +2,7 @@
     font-family: 'Archer Book';
     font-style: normal;
     font-weight: normal;
-    src: local('Archer Book'), url('Archer-Book-Pro.woff') format('woff');
+    src: local('Archer Book'), url('fonts/Archer-Book-Pro.woff') format('woff');
 }
 
 * {

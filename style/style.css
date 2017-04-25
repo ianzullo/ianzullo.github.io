@@ -1,3 +1,10 @@
+/*fonts*/
+@font-face {
+  font-family: Futura-Medium;
+  src: url('fonts/Futura Medium.otf')
+}
+
+/* styling*/
 * {
     margin: 0;
     padding: 0;
@@ -7,9 +14,6 @@
 body {
     background: #FAFAFA;
 }
-
-
-/* harbor topbar color rgba(4, 30, 66, 0.8)*/
 
 .navbar {
     background-color: #FAFAFA;
@@ -50,7 +54,7 @@ body {
 }
 
 .bg {
-    background-image: url('bg.jpg');
+    background-image: url('../img/bg.jpg');
     margin-top: 40vh;
     height: 150vh;
     width: 100%;
