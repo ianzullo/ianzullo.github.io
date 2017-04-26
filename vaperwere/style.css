@@ -15,28 +15,12 @@ body {
     background: rgb(255, 159, 164);
     255, 159, 164
 }
-
-.content {
-    color: rgb(80, 80, 80);
-    font-family: 'Comic Papyrus';
-    font-size: 3vh;
-    text-align: center;
-    padding: 2vh;
-    float: left;
-}
-
-.logo {
-    margin: 0 30% 0 30%;
-    margin-top: 20vh;
-    position: absolute;
-}
-
-.topbar {
+header {
   margin: 0 30% 0 30%;
   background-color: rgba(33, 97, 72, 0.76);
 }
 
-.topbar p {
+header p {
     color: rgb(0, 255, 181);
     float: left;
     display: inline;
@@ -52,6 +36,20 @@ body {
     margin-top: 10px;
 }
 
-.topbar p:hover {
+header p:hover {
     color: rgb(170, 0, 168);
+}
+.content {
+    color: rgb(80, 80, 80);
+    font-family: 'Comic Papyrus';
+    font-size: 3vh;
+    text-align: center;
+    padding: 2vh;
+    float: left;
+}
+
+.logo {
+    margin: 0 30% 0 30%;
+    margin-top: 20vh;
+    position: absolute;
 }
