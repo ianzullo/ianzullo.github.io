@@ -16,3 +16,13 @@ window.addEventListener('scroll', function(e) {
         console.log(document.getElementsByTagName('header'));
     }
 });
+
+slant = false;
+
+window.addEventListener('scroll', function(e) {
+    console.log(slant);
+if (slant == false && window.scrollY >= document.documentElement.clientHeight / 10) {
+  slant = true;
+  document.getElementsByClassName('title').className = 'slant-title';
+  console.log(document.getElementsByClassName('title'));
+}
