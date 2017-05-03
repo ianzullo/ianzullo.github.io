@@ -1,10 +1,6 @@
 /*fonts*/
 
-@font-face {
-    font-family: Futura-Medium;
-    src: url('fonts/Futura Medium.otf')
-}
-
+@import url('https://fonts.googleapis.com/css?family=Lato|Nunito|Quicksand');
 
 /* styling*/
 
@@ -23,14 +19,13 @@
     position: relative;
     top: 0;
     height: 100vh;
-    width: 100vw;
-    clear: left;
+    width: 100%;
 }
 
 .title h1 {
     color: #FFFFFF;
     font-size: 100px;
-    font-family: 'Futura-Medium';
+    font-family: 'Quicksand';
     text-align: center;
     font-weight: lighter;
     padding-top: 50vh;
@@ -38,37 +33,37 @@
 
 .content {
     background-color: #FAFAFA;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     position: relative;
 }
 
 .content p {
     color: #000000;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Nunito', 'Quicksand', 'Lato', sans-serif;
     padding: 6vh;
     font-size: 35px;
 }
 
-/*.menu {
-  bottom: 0vh;
-  left: 40vw;
+.buttons {
+  top: 0vh;
+  position: relative;
 }
 
-.menu p {
+.buttons p {
     color: #FFFFFF;
     background-color: #00897B;
     font-family: 'Lato', sans-serif;
-    margin: 2vh;
     font-size: 30px;
     padding: 3.5vh;
     width: 14.5vw;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 10vh;
+    margin-left: 40vw;
     transition: background-color, ease 0.2s;
 }
 
-.menu p:hover {
+.buttons p:hover {
     background-color: #00695C;
     color: #FFFFFF;
-}*/
+}
