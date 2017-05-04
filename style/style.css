@@ -28,10 +28,11 @@
     font-family: 'Poppins', 'Lato', sans-serif;
     font-weight: lighter;
     text-align: center;
+    user-select: none;
+    text-shadow: 1px 1px 3px rgba(12, 12, 12, 0.5);
     position: relative;
     top: 50%;
     transform: translateY(-50%);
-    user-select: none;
 }
 
 .content {
@@ -44,53 +45,54 @@
 .content p {
     color: #000000;
     font-family: 'Nunito', 'Roboto', 'Lato', sans-serif;
-    padding: 6vh;
     font-size: 35px;
+    padding: 6vh;
 }
 
-.buttons {
-    top: 0vh;
+.button {
     position: relative;
+    top: 15vh;
 }
 
-.buttons p {
+.button a {
     color: #FFFFFF;
-    background-color: #00897B;
     font-weight: lighter;
+    user-select: none;
+    text-decoration: none;
     font-family: 'Roboto', 'Lato', sans-serif;
     font-size: 30px;
-    padding: 3.5vh;
-    width: 14.5vw;
     text-align: center;
-    margin-top: 10vh;
+    box-shadow: 3px 3px 12px rgba(12, 12, 12, 0.5);
+    background-color: #00897B;
     margin-left: 40vw;
+    padding: 3.5vh;
+    padding-left: 3vw;
+    padding-right: 3vw;
     transition: background-color, ease 0.2s;
     transition: box-shadow, ease 0.5s;
-    box-shadow: 3px 3px 12px rgba(12, 12, 12, 0.5);
-    user-select: none;
 }
 
-.buttons p:hover {
+.button a:hover {
     background-color: #00695C;
     color: #FFFFFF;
 }
 
 #footer {
-    position: relative;
-    top: 30vh;
-    padding: 0;
-    padding-left: 3vw;
     color: rgba(0, 0, 0, 0.5);
     font-size: 1em;
     font-family: 'Lato', 'Roboto', sans-serif;
     user-select: none;
+    position: relative;
+    top: 50vh;
+    padding: 0;
+    padding-left: 2vw;
 }
 
 #footer a {
-  text-decoration: none;
-  color: rgba(0, 0, 0, 0.5);
+    color: rgba(0, 0, 0, 0.5);
+    text-decoration: none;
 }
 
 #footer a:hover {
-  color: rgba(0, 0, 0, 0.7);
+    color: rgba(0, 0, 0, 0.7);
 }
