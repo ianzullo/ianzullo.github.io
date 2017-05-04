@@ -1,6 +1,6 @@
 /*fonts*/
 
-@import url('https://fonts.googleapis.com/css?family=Lato|Nunito|Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Lato|Nunito|Roboto|Poppins');
 
 /* styling*/
 
@@ -24,11 +24,15 @@
 
 .title h1 {
     color: #FFFFFF;
-    font-size: 100px;
-    font-family: 'Quicksand';
-    text-align: center;
+    font-size: 6em;
+    font-family: 'Poppins', 'Lato', sans-serif;
     font-weight: lighter;
-    padding-top: 50vh;
+    text-align: center;
+    user-select: none;
+    text-shadow: 1px 1px 3px rgba(12, 12, 12, 0.5);
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .content {
@@ -40,30 +44,55 @@
 
 .content p {
     color: #000000;
-    font-family: 'Nunito', 'Quicksand', 'Lato', sans-serif;
-    padding: 6vh;
+    font-family: 'Nunito', 'Roboto', 'Lato', sans-serif;
     font-size: 35px;
+    padding: 6vh;
 }
 
-.buttons {
-  top: 0vh;
-  position: relative;
+.button {
+    position: relative;
+    top: 15vh;
 }
 
-.buttons p {
+.button a {
     color: #FFFFFF;
-    background-color: #00897B;
-    font-family: 'Lato', sans-serif;
+    font-weight: lighter;
+    user-select: none;
+    text-decoration: none;
+    font-family: 'Roboto', 'Lato', sans-serif;
     font-size: 30px;
-    padding: 3.5vh;
-    width: 14.5vw;
     text-align: center;
-    margin-top: 10vh;
+    box-shadow: 3px 3px 12px rgba(12, 12, 12, 0.5);
+    background-color: #00897B;
     margin-left: 40vw;
+    padding: 3.5vh;
+    padding-left: 3vw;
+    padding-right: 3vw;
     transition: background-color, ease 0.2s;
+    transition: box-shadow, ease 0.5s;
 }
 
-.buttons p:hover {
+.button a:hover {
     background-color: #00695C;
     color: #FFFFFF;
+}
+
+#footer {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1em;
+    font-family: 'Lato', 'Roboto', sans-serif;
+    user-select: none;
+    position: relative;
+    top: 50vh;
+    padding: 0;
+    padding-left: 2vw;
+}
+
+#footer a {
+    color: rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+}
+
+#footer a:hover {
+    color: rgba(0, 0, 0, 0.7);
 }
