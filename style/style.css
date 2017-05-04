@@ -31,6 +31,7 @@
     position: relative;
     top: 50%;
     transform: translateY(-50%);
+    user-select: none;
 }
 
 .content {
@@ -66,6 +67,7 @@
     transition: background-color, ease 0.2s;
     transition: box-shadow, ease 0.5s;
     box-shadow: 3px 3px 12px rgba(12, 12, 12, 0.5);
+    user-select: none;
 }
 
 .buttons p:hover {
@@ -81,6 +83,7 @@
     color: rgba(0, 0, 0, 0.5);
     font-size: 1em;
     font-family: 'Lato', 'Roboto', sans-serif;
+    user-select: none;
 }
 
 #footer a {
