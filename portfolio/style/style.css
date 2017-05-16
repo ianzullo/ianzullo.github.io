@@ -22,12 +22,64 @@
     width: 100%;
 }
 
-.intro p {
+.intro h1 {
     color: black;
     font-family: 'Poppins', 'Lato', 'Roboto', sans-serif;
     font-size: 3em;
+    font-weight: lighter;
     text-align: center;
     position: relative;
     top: 50%;
     transform: translateY(-50%);
+}
+
+.greenfoot {
+    background-color: #303030;
+    position: relative;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+}
+
+.greenfoot p {
+    color: white;
+    font-family: 'Nunito', 'Roboto', 'Lato', sans-serif;
+    font-size: 2em;
+    text-align: center;
+    padding: 5vh;
+    width: 40%;
+}
+
+.greenfoot img {
+    width: 100%;
+    position: relative;
+    right: 0;
+    box-shadow: 3px 3px 12px rgba(12, 12, 12, 0.5);
+}
+
+.greenfoot div {
+    width: 50%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 5vh;
+}
+
+.greenfoot div p {
+    font-size: 1.3em;
+    width: 100%;
+    text-align: center;
+    padding: none;
+    position: absolute;
+    right: 2vh;
+    top: 58vh;
+}
+
+.greenfoot div p a {
+  text-decoration: none;
+  color: #EF5350;
+}
+
+.greenfoot div p a:hover {
+  text-decoration: underline;
 }
