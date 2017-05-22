@@ -11,7 +11,10 @@
     outline: 0;
     font-size: 100%;
     vertical-align: baseline;
-    background: transparent;
+}
+
+body {
+    background-color: #FAFAFA;
 }
 
 .title {
@@ -40,6 +43,7 @@
     width: 100%;
     height: 100vh;
     position: relative;
+    text-align: center;
 }
 
 .content p {
@@ -52,6 +56,7 @@
 .button {
     position: relative;
     top: 15vh;
+    text-align: center;
 }
 
 .button a {
@@ -64,7 +69,6 @@
     text-align: center;
     box-shadow: 3px 3px 12px rgba(12, 12, 12, 0.5);
     background-color: #00897B;
-    margin-left: 40vw;
     padding: 3.5vh;
     padding-left: 3vw;
     padding-right: 3vw;
