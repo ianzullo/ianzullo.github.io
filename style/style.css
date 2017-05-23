@@ -45,7 +45,7 @@ body {
     position: relative;
 }
 
-.content p {
+.portfolio p {
     color: #000000;
     font-family: 'Poppins', 'Lato', 'Roboto', sans-serif;
     font-size: 2em;
@@ -86,15 +86,16 @@ body {
     background-color: #00695C;
     color: #FFFFFF;
 }
-/*
+
 #footer {
     color: rgba(0, 0, 0, 0.5);
     font-size: 1em;
     font-family: 'Lato', 'Roboto', sans-serif;
     user-select: none;
     position: relative;
-    padding: none;
-    top: 30vh;
+    padding-left: 3vw;
+    padding-bottom: 3vh;
+    top: 47vh;
     text-align: left;
 }
 
@@ -107,4 +108,3 @@ body {
 #footer a:hover {
     color: rgba(0, 0, 0, 0.7);
 }
-*/
