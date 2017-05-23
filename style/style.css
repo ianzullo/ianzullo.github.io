@@ -43,23 +43,29 @@ body {
     width: 100%;
     height: 100vh;
     position: relative;
-    text-align: center;
 }
 
 .content p {
     color: #000000;
-    font-family: 'Nunito', 'Roboto', 'Lato', sans-serif;
-    font-size: 35px;
-    padding: 6vh;
+    font-family: 'Poppins', 'Lato', 'Roboto', sans-serif;
+    font-size: 2em;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    text-align: center;
+    padding-bottom: 10vh;
 }
 
-.button {
+.portfolio {
     position: relative;
     top: 15vh;
     text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
 }
 
-.button a {
+.portfolio a {
     color: #FFFFFF;
     font-weight: lighter;
     user-select: none;
@@ -76,27 +82,29 @@ body {
     transition: box-shadow, ease 0.5s;
 }
 
-.button a:hover {
+.portfolio a:hover {
     background-color: #00695C;
     color: #FFFFFF;
 }
-
+/*
 #footer {
     color: rgba(0, 0, 0, 0.5);
     font-size: 1em;
     font-family: 'Lato', 'Roboto', sans-serif;
     user-select: none;
     position: relative;
-    top: 50vh;
-    padding: 0;
-    padding-left: 2vw;
+    padding: none;
+    top: 30vh;
+    text-align: left;
 }
 
 #footer a {
     color: rgba(0, 0, 0, 0.5);
     text-decoration: none;
+    padding: none;
 }
 
 #footer a:hover {
     color: rgba(0, 0, 0, 0.7);
 }
+*/
