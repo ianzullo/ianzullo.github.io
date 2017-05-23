@@ -1,0 +1,176 @@
+/*fonts*/
+
+@import url('https://fonts.googleapis.com/css?family=Lato|Nunito|Roboto|Poppins');
+
+/* styling*/
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    background-color: #FAFAFA;
+}
+
+.intro {
+    background-color: #FAFAFA;
+    position: relative;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+}
+
+.intro h1 {
+    color: black;
+    font-family: 'Poppins', 'Lato', 'Roboto', sans-serif;
+    font-size: 3em;
+    font-weight: lighter;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.greenfoot {
+    background-color: #303030;
+    position: relative;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+}
+
+.greenfoot p {
+    color: white;
+    font-family: 'Nunito', 'Roboto', 'Lato', sans-serif;
+    font-size: 2em;
+    text-align: center;
+    padding: 5vh;
+    width: 40%;
+}
+
+.greenfoot div {
+    width: 50%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 5vh;
+}
+
+.greenfoot div img {
+    width: 100%;
+    position: relative;
+    right: 0;
+    box-shadow: 3px 3px 12px rgba(12, 12, 12, 0.5);
+}
+
+.greenfoot div p {
+    font-size: 1.3em;
+    text-align: center;
+    margin: auto;
+    width: 79.7%;
+}
+
+.greenfoot div p a {
+    text-decoration: none;
+    color: #EF5350;
+}
+
+.greenfoot div p a:hover {
+    text-decoration: underline;
+}
+
+.dino-world {
+    background-color: #FAFAFA;
+    position: relative;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+}
+
+.dino-world img {
+    box-shadow: 3px 3px 12px rgba(12, 12, 12, 0.5);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 30%;
+    transform: translateY(-30%);
+}
+
+.play {
+    position: relative;
+    width: 100vw;
+    top: 25.5vh;
+    text-align: center;
+}
+
+.play a {
+    color: #FFFFFF;
+    font-weight: lighter;
+    user-select: none;
+    text-decoration: none;
+    font-family: 'Roboto', 'Lato', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    box-shadow: 3px 3px 12px rgba(12, 12, 12, 0.5);
+    background-color: #00897B;
+    padding: 3.5vh;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    transition: background-color, ease 0.2s;
+}
+
+.play a:hover {
+    background-color: #00695C;
+    color: #FFFFFF;
+}
+
+.joke {
+    background-color: #303030;
+    position: relative;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+}
+
+.joke h1 {
+    color: white;
+    font-family: 'Poppins', 'Lato', 'Roboto', sans-serif;
+    font-size: 2em;
+    font-weight: lighter;
+    text-align: center;
+    padding-bottom: 10vh;
+}
+
+.preview {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+.preview a {
+    color: #FFFFFF;
+    font-weight: lighter;
+    user-select: none;
+    text-decoration: none;
+    font-family: 'Roboto', 'Lato', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    box-shadow: 3px 3px 12px rgba(12, 12, 12, 0.5);
+    background-color: #00897B;
+    padding: 3.5vh;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    transition: background-color, ease 0.2s;
+}
+
+.preview a:hover {
+    background-color: #00695C;
+    color: #FFFFFF;
+}
