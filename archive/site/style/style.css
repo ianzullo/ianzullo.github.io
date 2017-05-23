@@ -1,0 +1,85 @@
+/*fonts*/
+
+@font-face {
+    font-family: Futura-Medium;
+    src: url('fonts/Futura Medium.otf')
+}
+
+
+/* styling*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #FAFAFA;
+}
+
+header {
+    background-color: #FAFAFA;
+    position: fixed;
+    top: 0;
+    height: 15vh;
+    width: 100%;
+    transition: background-color 0.5s ease;
+}
+
+header.top {
+    background-color: #FAFAFA;
+    position: fixed;
+    top: 0;
+    height: 15vh;
+    width: 100%;
+}
+
+header.scroll {
+    background-color: rgba(250, 250, 250, 0.5);
+    position: fixed;
+    top: 0;
+    height: 15vh;
+    width: 100%;
+}
+
+header p {
+    color: #303030;
+    float: left;
+    margin-top: 2vh;
+    font-size: 4vh;
+    text-decoration: none;
+    text-align: center;
+    padding: 2vh 3vh;
+    font-family: 'Futura-Medium';
+    margin-top: 3vh;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0);
+    border-radius: 5%;
+}
+
+header p:hover {
+    background-color: #eeeeee;
+}
+
+header.scroll p:hover {
+    background-color: rgba(238, 238, 238, 0.5);
+}
+
+.content {
+    color: #000000;
+    font-size: 5em;
+    font-family: 'Futura-Medium';
+    margin-top: 50vh;
+    text-align: center;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+.bg {
+    background-image: url('../img/bg.jpg');
+    margin-top: 40vh;
+    height: 150vh;
+    width: 100%;
+}

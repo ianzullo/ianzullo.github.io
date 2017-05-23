@@ -1,0 +1,55 @@
+/*fonts*/
+@font-face {
+  font-family: Futura-Medium;
+  src: url('fonts/Futura Medium.otf')
+}
+
+/*styling*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(255, 159, 164);
+    255, 159, 164
+}
+header {
+  margin: 0 30% 0 30%;
+  background-color: rgba(33, 97, 72, 0.76);
+}
+
+header p {
+    color: rgb(0, 255, 181);
+    float: left;
+    display: inline;
+    font-size: 4vh;
+    text-align: center;
+    padding: 2vh 3vh;
+    font-family: 'Futura-Medium';
+    transition: color, 0.5s;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    text-shadow: 0px 1px 1px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+header p:hover {
+    color: rgb(170, 0, 168);
+}
+.content {
+    color: rgb(80, 80, 80);
+    font-family: 'Comic Papyrus';
+    font-size: 3vh;
+    text-align: center;
+    padding: 2vh;
+    float: left;
+}
+
+.logo {
+    margin: 0 30% 0 30%;
+    margin-top: 20vh;
+    position: absolute;
+}

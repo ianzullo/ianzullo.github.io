@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: url('img/me.jpg')
+}
+
+.main {
+  background-color: white;
+  margin: auto;
+  width: 40vw;
+  height: 10vh;
+  margin-top: 3vh;
+  text-align: center;
+  font-family: 'Fighting Spirit turbo';
+  font-size: 3vw;
+  text-shadow: 0px 0px 10px red;
+}
+
+.main p {
+  padding-top: 1.7vh;
+}
+
+.picture img {
+  height: 25vh;
+  width: 13.5vw;
+  margin-top: 3vh;
+}
+
+.picture {
+  background-color: white;
+  margin: auto;
+  width: 50vw;
+  height: 79vh;
+  margin-top: 6vh;
+  text-align: center;
+  font-family: 'I Love Disaster';
+  font-size: 5vw;
+  text-shadow: 0px 0px 10px red;
+}
+
+.picture p {
+  padding-top: 2vh;
+  padding-bottom: 0;
+}
+
+.like {
+  height: 20vh;
+  width: 15vw;
+  float: left;
+  margin-left: 6vw;
+  border-radius: 100%;
+  transition: border-radius, 0.5s;
+}
+
+.dislike {
+  height: 20vh;
+  width: 15vw;
+  float: right;
+  margin-right: 6vw;
+  border-radius: 100%;
+  transition: border-radius, 0.5s;
+}
+
+.like:hover {
+  border-radius: 5%;
+}
+
+.dislike:hover {
+  border-radius: 5%;
+}
+
+.picture p span {
+  font-family: 'Broken Soul';
+  font-size: 5vw;
+}
