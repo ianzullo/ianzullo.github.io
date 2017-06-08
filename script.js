@@ -1,18 +1,13 @@
-ghosthead = false;
+endtext = false;
 window.addEventListener('scroll', function(e) {
-    console.log(ghosthead);
-    if (ghosthead == false && window.scrollY >= document.documentElement.clientHeight * 1.1) {
-        ghosthead = true;
+    console.log(endtext);
+    if (endtext == false && window.scrollY >= document.documentElement.clientHeight * 4) {
+        endtext = true;
         document.getElementsByTagName('header')[0].className = 'scroll';
         console.log(document.getElementsByTagName('header'));
-    } else if (ghosthead == true && window.scrollY <= document.documentElement.clientHeight * 1.1) {
-        ghosthead = false;
-        document.getElementsByTagName('header')[0].className = 'top';
-        console.log(document.getElementsByTagName('header'));
-    }
-    if (ghosthead == true && window.scrollY >= document.documentElement.clientHeight * 2.6) {
-        ghosthead = false;
-        document.getElementsByTagName('header')[0].className = 'top';
+    } else if (endtext == true && window.scrollY <= document.documentElement.clientHeight * 4) {
+        endtext = false;
+        document.getElementsByTagName('header')[0].className = 'default';
         console.log(document.getElementsByTagName('header'));
     }
 });
